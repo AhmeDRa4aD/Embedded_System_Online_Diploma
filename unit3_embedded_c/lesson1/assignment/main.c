@@ -26,7 +26,7 @@ typedef volatile unsigned int vuint32_t ;
 #define BASE_RCC    0x40021000
 #define BASE_GPIOA   0x40010800
 #define RCC_APB2ENR *(vuint32_t*)(BASE_RCC + 0x18)
-#define GPIOA_CRH	*(vuint32_t*)(BASE_GPIOA + 0x04)
+#define GPIOA_CRH	  *(vuint32_t*)(BASE_GPIOA + 0x04)
 #define GPIOA_ODR   *(vuint32_t*)(BASE_GPIOA + 0x0c)
 typedef union ODR
 {
